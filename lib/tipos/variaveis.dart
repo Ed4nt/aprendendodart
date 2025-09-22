@@ -1,7 +1,7 @@
 void main() {
   /// VAR
-  // A declaração de variáveis 'var' cria uma variável em que o tipo dela é definido pelo valor declarado, esse tipo
-  // depois de ser predetermidado não pode mais ser alterado
+  // A declaração de variáveis 'var' cria uma variável em que o tipo dela é definido pelo valor declarado,
+  // esse tipo depois de ser predetermidado não pode mais ser alterado
   var nome = "Edelson";
   print(nome);
   var idade = 24;
