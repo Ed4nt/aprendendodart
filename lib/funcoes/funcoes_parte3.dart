@@ -29,6 +29,8 @@ void main() {
   // Uma variável, função ou classe pode ser privada desde que seu nome comece com um _ (underline)
   // só é possivel chama-la dentro do arquivo onde foi criada (ver funcao_privada.dart)
   // _funcaoprivada(); removendo o comentário é apresentado um erro dizendo que a função não foi definida
+
+  // Já uma função pública pode ser importada e chamada em qualquer outro arquivo
   funcaoPublica();
 }
 
