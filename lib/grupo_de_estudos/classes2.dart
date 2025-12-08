@@ -53,5 +53,5 @@ void main() {
 
   print(tucunare.som); // E peixe faz barulho é?
   tucunare.nadar(); // Nadando
-  print(tucunare.meio.nome);
+  print(tucunare.meio.nome); // Aquatico
 }

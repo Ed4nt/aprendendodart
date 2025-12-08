@@ -8,21 +8,25 @@ enum TipoCarroceria {
   const TipoCarroceria({required this.nome});
 }
 
+// Classe é como um molde que reune caracteristicas que define um objeto, como um carro por exemplo
 class Carro {
-  final String marca;
-  final String ano;
-  final String modelo;
-  final String cor;
-  final TipoCarroceria tipo;
+  // Todo carro tem:
+  final String marca; // marca
+  final String ano; // ano
+  final String modelo; // modelo
+  final String cor; // cor
+  final TipoCarroceria tipo; // um tipo de carroceria
 
+  // O constructor constroe o objeto através do molde da classe
   Carro({
-    required this.marca,
+    required this.marca, // o this. mostra que está falando da variável marca dentro da classe
     required this.ano,
     required this.modelo,
     required this.cor,
     required this.tipo,
   });
 
+  // Objetos tem um comportamento que é definido pelo método(função)
   void acelerar() {
     print("Acelerando");
   }
