@@ -1,11 +1,15 @@
 import 'dart:async';
 
+// A classe abstrata é uma classe que serve como modelo para outras classes,
+// ela não pode ser instanciada, não podem ser criados objetos dentro dela
+// Ela força as classes filhas a implementarem certos metodos
 abstract class Metododepagamento {
-  processarpagamento();
+  processarpagamento(); // Metodo de processamento de pagamento
 }
 
+// A classe Pix extende a classe Metododepagamento, sendo obrigada a chamar o método processarpagamento
 class Pix extends Metododepagamento {
-  @override
+  @override // Override mostra que o método está sendo sobrescrito adicionando novas informações nele
   processarpagamento() {
     print("Lendo QR Code");
     return "Golpe do Pix";
@@ -25,6 +29,14 @@ class Dinheiro extends Metododepagamento {
   processarpagamento() {
     print("Mim dê papai");
     return 0;
+  }
+}
+
+class Debito extends Metododepagamento {
+  @override
+  processarpagamento() {
+    print("Pagando no débito");
+    return "À vista papae";
   }
 }
 

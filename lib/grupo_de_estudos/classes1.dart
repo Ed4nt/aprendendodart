@@ -1,10 +1,14 @@
+// enum é uma coleção de valores constantes, por exemplo:
+// Os dias da semana se mantém constantes e sempre vão ser esses, assim como tipos de carroceria
 enum TipoCarroceria {
   picape(nome: "Picape"),
   sedan(nome: "Sedan"),
   suv(nome: "SUV"),
   hatch(nome: "Hatch");
 
+  // Aqui é criada a variável nome que recebe os nomes entre ""
   final String nome;
+  // O constructor cria o objeto, afinal enum é quase uma classe
   const TipoCarroceria({required this.nome});
 }
 
@@ -41,12 +45,13 @@ class Carro {
 }
 
 void main() {
+  // Os objetos são criados de acordo com a classe
   var civic = Carro(
     marca: "Honda",
     ano: "2008",
     modelo: "Civic",
     cor: "Vermelho",
-    tipo: TipoCarroceria.sedan,
+    tipo: TipoCarroceria.sedan, // O tipo de carroceria é buscado do enum
   );
   var corolla = Carro(
     marca: "Toyota",
@@ -56,9 +61,11 @@ void main() {
     tipo: TipoCarroceria.hatch,
   );
 
-  print(civic.tipo.name);
-  civic.buzinar();
-  print(corolla.tipo.nome);
+  print(civic.tipo.name); // Ao usar 'name' é exibido o nome do parâmetro
+  civic.buzinar(); // O civic buzina
+  print(
+    corolla.tipo.nome,
+  ); // Ao usar nome é exibido a mensagem atribuída ao parâmetro correspondente
 }
 
 // refazer com animais
