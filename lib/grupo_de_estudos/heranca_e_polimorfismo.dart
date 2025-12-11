@@ -1,4 +1,4 @@
-import 'dart:async';
+// import 'dart:async';
 
 // A classe abstrata é uma classe que serve como modelo para outras classes,
 // ela não pode ser instanciada, não podem ser criados objetos dentro dela
