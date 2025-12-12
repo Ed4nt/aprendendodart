@@ -42,9 +42,9 @@ class Debito extends Metododepagamento {
 
 void main() {
   Credito pagcred = Credito();
-  print(pagcred);
-  final pagpix = Pix().processarpagamento();
-  final pagdin = Dinheiro().processarpagamento();
-  print(pagpix);
-  print(pagdin);
+  print(pagcred); // Instance of 'Credito'
+  final pagpix = Pix().processarpagamento(); // Lendo QR Code
+  final pagdin = Dinheiro().processarpagamento(); // Mim dê papai
+  print(pagpix); // Golpe do Pix
+  print(pagdin); // 0
 }
