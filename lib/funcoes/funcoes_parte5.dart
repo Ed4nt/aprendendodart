@@ -13,8 +13,14 @@ void main() {
 
 // Função que retorna uma lista de função quando executada
 void onPressed(List<void Function()> callbacks) {
-  print("Cliquei no botão");
+  //print("Cliquei no botão");
+
+  // Laço de repetição do tipo for que percorre os dados da coleção
+  // 'int i = 0;' define o valor inicial do indice
+  // 'i < callbacks.length' estabelece a condição, enquanto ela for verdadeira o loop vai existir
+  // 'i++' é o incremento, soma 1 ao índice em cada loop
   for (int i = 0; i < callbacks.length; i++) {
+    // chama cada ítem da lista 'Callbacks' pelo índice i
     callbacks[i]();
   }
 }
