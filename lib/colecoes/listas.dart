@@ -35,4 +35,11 @@ void main() {
   nomes.remove("João"); // remove o item 'João' da lista nomes
 
   print("Nomes: $nomes"); // [Edelson]
+
+  nomes.remove(
+    "Nome não existente",
+  ); // Ao tentar remover um item que não está na lista ela continuará exatamente igual
+
+  // O resultado ainda será o mesmo
+  print("Nomes: $nomes"); // [Edelson]
 }
