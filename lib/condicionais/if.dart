@@ -1,5 +1,5 @@
 // Estruturas condicionais executam um bloco de código se a condção especificada for verdadeira
-// A estrutura do if suporta mais de uma propriedade em sua condição veja o exemplo do alistamento (linha 51)
+// A estrutura do if suporta mais de uma propriedade em sua condição veja o exemplo do alistamento (linha 49)
 
 void main() {
   double notaDeCorte = 60;
