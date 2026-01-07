@@ -4,8 +4,6 @@
 // "Adulto" se estiver entre 18 e 59
 // "Idoso" se tiver 60 ou mais
 
-import 'dart:async';
-
 void main() {
   late int idade;
   idade = 60;
