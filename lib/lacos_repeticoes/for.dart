@@ -49,9 +49,9 @@ void main() {
   });
 
   // MAP
-
   // O MAP funciona de uma forma similar a um interador
 
+  // A variavel novosNomes recebe
   final novosNomes = nomes.map((nome) => "Nome: $nome").toList();
 
   print(novosNomes);
