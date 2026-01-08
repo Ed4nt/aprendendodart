@@ -13,7 +13,7 @@ void main() {
 
 // Função que retorna uma lista de função quando executada
 void onPressed(List<void Function()> callbacks) {
-  //print("Cliquei no botão");
+  print("Cliquei no botão");
 
   // Laço de repetição do tipo for que percorre os dados da coleção
   // 'int i = 0;' define o valor inicial do indice

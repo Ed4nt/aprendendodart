@@ -1,5 +1,5 @@
 // MAP é uma lista de chaves e valores.
-// Podemos por uma chave e atribuir um valor a ela
+// Podemos pôr uma chave e atribuir um valor a ela
 // As chaves não podem ser duplicadas mas os valores sim
 // Muito utilizado para passar jsons para objetos Dart
 
