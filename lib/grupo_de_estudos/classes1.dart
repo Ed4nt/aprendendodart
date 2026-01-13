@@ -21,7 +21,7 @@ class Carro {
   final String cor; // cor
   final TipoCarroceria tipo; // um tipo de carroceria
 
-  // O constructor constroe o objeto através do molde da classe
+  // O constructor constroi o objeto através do molde da classe
   Carro({
     required this.marca, // o this. mostra que está falando da variável marca dentro da classe
     required this.ano,

@@ -24,15 +24,15 @@ void main () {
   bool containsEdelson = scores.containsKey("Edelson");
   bool containsPamella = scores.containsKey("Pâmella");
 
-  print("Contains Key Edelson: $containsEdelson");
-  print("Contains Key Pâmella: $containsPamella");
+  print("Contains Key Edelson: $containsEdelson"); // Contains Key Edelson: false
+  print("Contains Key Pâmella: $containsPamella"); // Contains Key Pâmella: true
 
   // containsValue veriica se o valor está contido no Map Scores
   bool containsValuePamella = scores.containsValue(92);
   bool containsValueEdelson = scores.containsValue(95);
 
-  print("Contains Value Pâmella: $containsValuePamella");
-  print("Contains Value Edelson: $containsValueEdelson");
+  print("Contains Value Pâmella: $containsValuePamella"); // Contains Value Pâmella: true
+  print("Contains Value Edelson: $containsValueEdelson"); // Contains Value Edelson: false
 
   // Foi criado uma lista de Maps constante cujos valores não podem ser removidos ou alterados
   const pessoa = [
