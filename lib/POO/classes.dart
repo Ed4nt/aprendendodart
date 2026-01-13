@@ -34,7 +34,11 @@ void main () {
 
   print("Altura do ${adulto.nome}: ${adulto.altura}cm");
 
-  var animal = Animal(nome: "Ovelha", pelagem: true, cor: "Branca");
+  // Os parametros marcados como required exigem a menção de seus atributos: "nome, pelagem, cor"
+  // dessa forma podem ser atribuidos em qualquer ordem
+  var animal = Animal(pelagem: true, nome: "Ovelha", cor: "Branca");
+  // pelagem = atibuto
+  // true = propriedade(valores)
 
   print("O(a) ${animal.nome} possui pelagem: ${animal.pelagem}");
 }
