@@ -20,8 +20,21 @@ class Calculadora {
 }
 
 void main () {
+  // instanciada a classe Calculadora e definida a variavel que aponta para ela
   final calculadora = Calculadora();
+  // O método somar é chamado com os parâmetros definidos e seu retorno é atribuído à variável soma
   final soma = calculadora.somar(15, 25.7);
+  print("Soma: $soma"); // Soma: 40.7
 
-  print("Soma: $soma");
+  // O método subtrair é chamado com os parâmetros definidos e seu retorno é atribuído à variável subtracao
+  final subtracao = calculadora.subtrair(627, 315.5);
+  print("Subtração: $subtracao"); // Subtração: 311.5
+
+  // O método subtrair é chamado com os parâmetros definidos e seu retorno é atribuído à variável multiplicacao
+  final multiplicacao = calculadora.multiplicar(30, 497.25);
+  print("Multiplicação: $multiplicacao"); // Multiplicação: 14917.5
+
+  // O método subtrair é chamado com os parâmetros definidos e seu retorno é atribuído à variàvel divisao
+  final divisao = calculadora.dividir(49, 7);
+  print("Divisão: $divisao"); // Divisão: 7.0
 }
