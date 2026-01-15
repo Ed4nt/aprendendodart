@@ -1,3 +1,9 @@
+// Encapsulamento é um dos quatro pilares da programação orientada a objetos
+// juno com abstração, herança e polimorfismo.
+
+// Encapsulamento consiste em esconder os detalhes internos de uma classe
+// e expor apenas o necessário para quem for utilizá-la
+
 class ContaBancaria {
   double _saldo;
   double get saldo => _saldo;
