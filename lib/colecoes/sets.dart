@@ -7,8 +7,8 @@ void main() {
     "Mamão",
     "Pera",
     "Abacate",
-    "Maçã",
-    "Mamão",
+    //"Maçã",
+    //"Mamão",
   }; // Os valores repetidos serão ignorados
   print("Frutas Set: $frutas"); // Frutas Set: {Maçã, Mamão, Pera, Abacate}
 
