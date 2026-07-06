@@ -1,8 +1,13 @@
 class User {
     final String nome;
-    final String id;
+    final int id;
 
     const User({required this.nome, required this.id});
+
+    @override
+  String toString() {
+    return "Nome: $nome, ID: $id";
+  }
 }
 
 sealed class UserState {}
@@ -22,7 +27,7 @@ class UserLoaded implements UserState {
 }
 
 void main() {
-    UserState userState = LoadingUser();
+    UserState userState = UserLoaded(user: User(nome: 'Edelson', id: 01));
 
     switch (userState) {
         case LoadingUser():

@@ -34,7 +34,6 @@ void main() {
     case ClasseAbstrata():
       print('Essa classe é ClasseAbstrata');
       break;
-    default:
     // O dart percebe, já que foi implementada uma classe selada,
     // que todas as opções foram cobertas não sendo necessário o uso do defalt
   }
